@@ -1,0 +1,12 @@
+diff '--color=auto' -ur taucs-2.2.1.old/configurator/taucs_config.c taucs-2.2.1/configurator/taucs_config.c
+--- taucs-2.2.1.old/configurator/taucs_config.c	2025-02-21 21:16:14.056451774 +0400
++++ taucs-2.2.1/configurator/taucs_config.c	2025-02-21 21:16:44.637327520 +0400
+@@ -1,6 +1,8 @@
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <string.h>
++
++extern int mkdir();
+ 
+ #include "taucs_structure.h"
+ 
